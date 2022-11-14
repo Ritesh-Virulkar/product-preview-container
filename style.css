@@ -48,10 +48,9 @@ body {
   border-radius: 10px;
   overflow: hidden;
 }
-.container > *{
-  flex-grow: 50%;
+.container > * {
+  flex-basis: 50%;
 }
-
 .product-image {
   width: 100%;
 }
@@ -109,11 +108,6 @@ body {
 .btn:hover {
   cursor: pointer;
   background-color: var(--clr-accent-v-dark-blue);
-}
-.cart-icon {
-  position: relative;
-  top: 3px;
-  right: 8px;
 }
 @media only screen and (max-width: 700px) {
   .container {
